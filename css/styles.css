@@ -1,7 +1,18 @@
 /* =========Style-main========= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0;
 }
 
 a {
@@ -17,10 +28,23 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
+img {
+  display: block;
+}
+.conteiner {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* =========/Style-main========= */
 
 /* =========Style-header-menu========= */
+
+.menu {
+  margin: 0;
+}
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
