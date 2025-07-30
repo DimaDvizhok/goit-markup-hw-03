@@ -42,9 +42,34 @@ img {
 
 /* =========Style-header-menu========= */
 
+.conteiner.heder {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+.heder-nav-div:not(:last-child) {
+  margin-right: 76px;
+}
+.heder-nav {
+  display: flex;
+}
 .menu {
   margin: 0;
+  display: flex;
 }
+.menu-list:not(:last-child) {
+  margin-right: 40px;
+}
+.address-menu {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.address-menu-list:not(:last-child) {
+  margin-right: 40px;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
