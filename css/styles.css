@@ -13,6 +13,8 @@ ul,
 ol {
   list-style-type: none;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -121,9 +123,23 @@ img {
 /* =========/Style-header-menu========= */
 
 /* =========Style-main-section1========= */
+.conteiner.title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 188px;
+  align-items: center;
+}
+.main-effective-title {
+  width: 496px;
+  height: 120px;
+  margin-bottom: 48px;
+}
 .main-effective {
   background-color: #2e2f42;
   height: 600px;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-effective-name {
   font-weight: 700;
@@ -133,6 +149,7 @@ img {
   text-align: center;
   color: #ffffff;
 }
+
 .button-stile {
   font-weight: 500;
   font-size: 16px;
@@ -149,12 +166,33 @@ img {
 }
 /* =========/Style-main-section1========= */
 /* =========Style-main-section2========= */
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.our-benefits-conteiner {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  justify-content: space-between;
+  gap: 24px;
+}
+
 .section-two-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-two-text {
   font-size: 16px;
@@ -166,10 +204,24 @@ img {
 /* =========Style-main-team========= */
 .teambackground {
   background-color: #f4f4fd;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.team-our-list {
+  display: flex;
+  gap: 24px;
 }
 .team-color-back {
   background-color: #ffffff;
 }
+
+.team-our-img {
+  margin-bottom: 32px;
+}
+
 .team-our-name {
   font-weight: 700;
   font-size: 36px;
@@ -178,6 +230,7 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-name {
   font-weight: 500;
@@ -186,6 +239,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-name-text {
   font-size: 16px;
@@ -193,6 +247,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
 }
 /* =========/Style-main-team========= */
 /* =========Style-main-portfolio========= */
@@ -204,7 +259,20 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  column-gap: 24px;
+  row-gap: 48px;
+
+  margin-bottom: 120px;
+}
+
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -222,6 +290,10 @@ img {
 /* =========Style-footer========= */
 .end {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .end-logo {
   font-family: 'Raleway', sans-serif;
@@ -240,4 +312,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+}
+.end-logo-div {
+  margin-bottom: 16px;
+  padding-top: 100px;
 }
