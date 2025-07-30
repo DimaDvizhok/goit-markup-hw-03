@@ -119,9 +119,11 @@ img {
   color: #404bbf;
 }
 /* =========/Style-header-menu========= */
+
 /* =========Style-main-section1========= */
 .main-effective {
   background-color: #2e2f42;
+  height: 600px;
 }
 .main-effective-name {
   font-weight: 700;
