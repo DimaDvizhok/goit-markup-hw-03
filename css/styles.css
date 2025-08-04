@@ -122,17 +122,7 @@ img {
 /* =========/Style-header-menu========= */
 
 /* =========Style-main-section1========= */
-.conteiner.title {
-  display: flex;
-  flex-direction: column;
-  padding-top: 188px;
-  align-items: center;
-}
-.main-effective-title {
-  width: 496px;
-  height: 120px;
-  margin-bottom: 48px;
-}
+
 .main-effective {
   background-color: #2e2f42;
   height: 600px;
@@ -141,12 +131,17 @@ img {
   margin-right: auto;
 }
 .main-effective-name {
+  display: block;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  padding-bottom: 48px;
+  padding-top: 180px;
+  padding-left: 316px;
+  padding-right: 316px;
+  text-align: center;
 }
 
 .button-stile {
@@ -158,6 +153,8 @@ img {
   background: #4d5ae5;
   width: 169px;
   height: 56px;
+  margin-left: 480px;
+  margin-right: 479px;
 }
 .button-stile:hover,
 .button-stile:focus {
