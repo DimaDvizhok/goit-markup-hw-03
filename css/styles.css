@@ -49,32 +49,22 @@ img {
 
 /* =========Style-header-menu========= */
 
-.conteiner.heder {
+.heder-menu {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
   justify-content: space-between;
-}
-.heder-nav-div:not(:last-child) {
-  margin-right: 76px;
+  align-items: center;
 }
 .heder-nav {
+  align-items: center;
   display: flex;
 }
 .menu {
-  margin: 0;
   display: flex;
-}
-.menu-list:not(:last-child) {
-  margin-right: 40px;
+  column-gap: 40px;
 }
 .address-menu {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.address-menu-list:not(:last-child) {
-  margin-right: 40px;
+  column-gap: 40px;
 }
 
 .logo {
@@ -85,17 +75,21 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .text-style {
   color: #2e2f42;
 }
 
 .menu-list-link {
+  display: block;
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-list-link:hover,
 .menu-list-link:focus {
