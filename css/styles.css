@@ -38,7 +38,7 @@ body {
 img {
   display: block;
 }
-.conteiner {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -53,6 +53,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .heder-nav {
   align-items: center;
@@ -60,11 +61,11 @@ img {
 }
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .address-menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .logo {
