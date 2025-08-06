@@ -227,6 +227,12 @@ img {
 }
 .team-color-back {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-color-back-div {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-our-img {
@@ -259,6 +265,7 @@ img {
   text-align: center;
   color: #434455;
   margin-bottom: 32px;
+  text-align: center;
 }
 /* =========/Style-main-team========= */
 /* =========Style-main-portfolio========= */
