@@ -48,12 +48,13 @@ img {
 /* =========/Style-main========= */
 
 /* =========Style-header-menu========= */
-
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .heder-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .heder-nav {
   align-items: center;
