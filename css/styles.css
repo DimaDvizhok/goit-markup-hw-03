@@ -190,10 +190,7 @@ img {
 .our-benefits-conteiner {
   display: flex;
   gap: 24px;
-}
-
-.our-benefits-conteiner-li {
-  width: calc(100% - 72px) / 4;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two-name {
